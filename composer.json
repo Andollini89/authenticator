@@ -22,5 +22,5 @@
     "extra": {
         "class": "Authenticator\\"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
