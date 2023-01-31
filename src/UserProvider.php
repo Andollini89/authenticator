@@ -1,6 +1,8 @@
 <?php
 namespace Authenticator;
 
+use Authenticator\UserProviderInterface;
+
 class UserProvider implements UserProviderInterface
 {
     private $pdo;
