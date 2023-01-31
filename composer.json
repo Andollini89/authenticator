@@ -1,0 +1,30 @@
+{
+    "name": "stefano/authenticator",
+    "description": "login plugin",
+    "type": "composer-plugin",
+    "autoload": {
+        "psr-4": {
+            "Authenticator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andollini89"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "ext-pdo": "*",
+        "ext-pdo_sqlite": "*",
+        "composer/installers": "^1.0.24",
+        "composer-plugin-api": "^2.1"
+    },
+    "extra": {
+        "class": "Authenticator\\"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
