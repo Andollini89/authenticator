@@ -3,7 +3,7 @@
 ## Installation
 
 ``` php
-composer require stefano/authenticator
+composer require Andollini89/authenticator
 ```
 
 ``` php

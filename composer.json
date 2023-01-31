@@ -1,5 +1,5 @@
 {
-    "name": "stefano/authenticator",
+    "name": "Andollini89/authenticator",
     "description": "login plugin",
     "type": "composer-plugin",
     "autoload": {
